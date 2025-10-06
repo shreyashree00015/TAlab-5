@@ -16,7 +16,7 @@ import usecase.LogGradeUseCase;
 
 public class Config {
     private final GradeDataBase gradeDataBase = new MongoGradeDataBase();
-
+//here
     /**
      * Get the GetGradeUseCase object.
      * @return GetGradeUseCase object.
@@ -24,7 +24,8 @@ public class Config {
     public GetGradeUseCase getGradeUseCase() {
         return new GetGradeUseCase(gradeDataBase);
     }
-
+//ijshshs
+    //jhjhgw
     /**
      * Get the LogGradeUseCase object.
      * @return LogGradeUseCase object.
