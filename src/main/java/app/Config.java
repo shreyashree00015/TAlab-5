@@ -16,7 +16,7 @@ import usecase.LogGradeUseCase;
 //change
 public class Config {
     private final GradeDataBase gradeDataBase = new MongoGradeDataBase();
-
+//here
     /**
      * Get the GetGradeUseCase object.
      * @return GetGradeUseCase object.
