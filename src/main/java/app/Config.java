@@ -13,7 +13,7 @@ import usecase.LogGradeUseCase;
 /**
  * Config class to provide use cases with the necessary dependencies.
  */
-
+//change
 public class Config {
     private final GradeDataBase gradeDataBase = new MongoGradeDataBase();
 
